@@ -71,7 +71,7 @@ $('#btnEnviar').click(function () {
     {
         //error mail
         $("#frmMail").attr("class", "form-group has-error has-feedback");
-        $("#mailOK").hie();
+        $("#mailOK").hide();
         $("#mailError").show();
     } else {
         //okay mail
