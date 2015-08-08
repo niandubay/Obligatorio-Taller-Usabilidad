@@ -1,8 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 //ocultar mensajes para el campo nombre
 $("#nombreOK").hide();
 $("#nombreError").hide();
@@ -88,7 +83,6 @@ $('#btnEnviar').click(function () {
         $('#frmPass').popover('show');
     } else {
         //okay password
-
     }
     if (validar(pass) === false)
     {
@@ -114,16 +108,4 @@ $('#btnEnviar').click(function () {
         //error preferencias
         $('[data-toggle="popover"]').popover('show');
     }
-
-
-
-
-
-
-
-
-
-
-
-
 });

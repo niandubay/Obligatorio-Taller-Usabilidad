@@ -1,4 +1,31 @@
-#galeria div {
-    text-align: center;
+img {
+    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media(max-width:767px) {
+    #carrusel {
+        display: none;
+    }
+    #galeria > div:nth-child(odd) > img {
+        float: right;
+    }
+    #galeria > div:nth-child(even) > img {
+        float: left;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .clearfix:nth-child(2n+1) {
+        clear: left;
+    }
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .clearfix:nth-child(3n+1) {
+        clear: left;
+    }
+}
+@media (min-width:1201px) {
+    .clearfix:nth-child(4n+1) {
+        clear: left;
+    }
 }
