@@ -111,8 +111,14 @@ $('#btnEnviar').click(function () {
     }
 });
 
-$('a[role="button"]').on('click', function() {
+$(".btn_catalogo").on('click', function () {
 
-        $('a[href="#item"]').click();
+    $('a[href="#item"]').click();
 
-    });
+});
+$('#btn_return_catalogo').on('click', function () {
+
+    $('a[href="#catalogo"]').click();
+
+});
+$('[data-toggle="tooltip"]').tooltip();

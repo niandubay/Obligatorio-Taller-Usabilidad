@@ -19,7 +19,12 @@ td p, td h3 {
     /* mantener un tamaño en el catálogo */
     width: 200px;
 }
-
+.list-group-item{
+    border-top: 0px; 
+    border-left: 0px;
+    border-right:0px;
+    border-bottom: 0px;
+}
 @media(max-width:767px) {
     /* las impares contra la derecha */
     #galeria > div:nth-child(odd) > img {
