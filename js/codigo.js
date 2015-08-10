@@ -104,8 +104,15 @@ $('#btnEnviar').click(function () {
     if ($("input[type='checkbox']").is(":checked"))
     {
         // no muesta el pop-up
+        $('[data-toggle="popover"]').popover('hide');
     } else {
         //error preferencias
         $('[data-toggle="popover"]').popover('show');
     }
 });
+
+$('a[role="button"]').on('click', function() {
+
+        $('a[href="#item"]').click();
+
+    });

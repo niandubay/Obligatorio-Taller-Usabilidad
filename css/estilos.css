@@ -1,3 +1,7 @@
+.jumbotron {
+    /* un colorcito */
+    background-color: #DCD9AF;
+}
 #galeria img, #catalogo img, #item img {
     /* espaciado horixontal */
     margin-top: 15px;
@@ -10,6 +14,10 @@ td {
 td p, td h3 {
     /* un poquito de padding */
     padding: 15px;
+}
+.thumbnail img {
+    /* mantener un tamaño en el catálogo */
+    width: 200px;
 }
 
 @media(max-width:767px) {
